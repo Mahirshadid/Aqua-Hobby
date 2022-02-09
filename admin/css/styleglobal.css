@@ -1,0 +1,14 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  color: #2b3e51;
+  background-color: #ffffff;
+}

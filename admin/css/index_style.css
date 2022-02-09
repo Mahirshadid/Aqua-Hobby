@@ -1,0 +1,9 @@
+.cd-form .icon input{
+  padding-left: 54px !important;
+}
+.cd-form [required].l-user {
+  background: url("../img/ic_required.svg") no-repeat top right;
+}
+.cd-form [required].l-pass {
+  background: url("../img/ic_required.svg") no-repeat top right;
+}

@@ -1,0 +1,108 @@
+.cd-form [required].m-name {
+  background: url("img/ic_required.svg") no-repeat top right;
+}
+
+.cd-form [required].m-phone {
+  background: url("img/ic_required.svg") no-repeat top right;
+}
+
+.cd-form [required].m-address {
+  background: url("img/ic_required.svg") no-repeat top right;
+}
+
+.cd-form [required].m-fishname {
+  background: url("img/ic_required.svg") no-repeat top right;
+}
+
+.cd-form [required].m-quantity {
+  background: url("img/ic_required.svg") no-repeat top right;
+}
+
+*{
+    
+    font-family: 'Roboto', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box; outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    min-height: 80vh;
+    padding: 0 7%; padding-top: 1rem;
+}
+
+h2,p{
+    color: firebrick;
+
+}
+
+.available{
+    background: #333;
+}
+
+.available .heading{
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+}
+
+.available .heading span{
+    color: firebrick;
+}
+
+
+.available .box-container{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.available .box-container .box{
+    background: #424242;
+    border: .1rem solid rgba(0,0,0,.1);
+    margin: 2rem;
+    margin-top: 3rem;
+    padding: 0.5rem 2rem;
+    text-align: center;
+   
+}
+
+.available .box-container .box img{
+    height: 7rem;
+    width: 12rem;
+}
+
+.available .box-container .box h3{
+    font-size: 2rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.available .box-container .box p{
+    color: #999;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.scroll-top{
+    position: fixed;
+    bottom: 7.5rem;
+    right: 2rem;
+    display: none;
+    z-index: 100;
+}
+
+.scroll-top img{
+    height: 7rem;
+}
+
+
+.scroll-top img:hover{
+    transform: translateY(1rem);
+}
